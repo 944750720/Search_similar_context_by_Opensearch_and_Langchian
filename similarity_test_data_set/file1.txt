@@ -1,0 +1,1 @@
+This is a sample text that will be the same in three files.
