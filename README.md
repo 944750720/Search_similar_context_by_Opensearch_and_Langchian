@@ -1,6 +1,6 @@
 # Search_similar_context_by_Opensearch_and_Langchian
 
-This project provides a Python script for loading unstructured text data, splitting it into chunks　by Langchain, and processing it with OpenSearch to get a vector representation of each chunk. These vectors can then be used for various natural language processing tasks, such as text classification, semantic similarity comparison, or information retrieval. I also use OpenAI's GPT model to query so that I can get response for searching similar context, or other NLP tasks can be done by GPT model.
+This project provides a Python script for loading unstructured text data, splitting it into chunks by Langchain, and processing it with OpenSearch to get a vector representation of each chunk. These vectors can then be used for various natural language processing tasks, such as text classification, semantic similarity comparison, or information retrieval. I also use OpenAI's GPT model to query so that I can get response for searching similar context, or other NLP tasks can be done by GPT model.
 
 ## Requirements
 
