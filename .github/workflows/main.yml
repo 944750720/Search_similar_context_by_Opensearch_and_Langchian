@@ -2,8 +2,8 @@ name: Build image and push it to Docker Hub
 on: push
 
 jobs:
-  push-image:
-    name: Search_similar_context_by_Opensearch_and_Langchian
+  Build-and-push-image:
+    name: Build and push
     runs-on: ubuntu-latest
 
     steps:
