@@ -35,3 +35,6 @@ This project provides a Python script for loading unstructured text data, splitt
 This script will load all text files from the `similarity_test_data_set` directory, split each file into chunks of 1000 characters, and process each chunk with OpenAI's GPT model in Docker container. The processed data will be stored in the `/usr/share/opensearch/data/` directory. (in Docker)
 
 In this project, I asked GPT to find out top 3 documents with highest similarity score.
+
+## Workflow
+I've set up a GitHub Actions workflow to automate the process of pushing this Docker image to Docker Hub. The workflow is triggered whenever code is pushed to the repository. It builds the Docker image and pushes it to Docker Hub. The workflow configuration can be found in the `.github/workflows` directory, or accessed directly [here](https://github.com/944750720/Search_similar_context_by_Opensearch_and_Langchian/actions).
